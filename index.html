@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta name="description" content="qController is a free jQuery plugin to control quantity in number. Increase decrease number with plus minus buttons or range slider and handle user input more easily." />
+<!--Living with Adsense-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-7089100907045419",
+          enable_page_level_ads: true
+     });
+</script>
+<title> Quantity Controller jQuery Plugin qController </title>
+
+   <!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--temp-->
+<script src="../js/jquery.min.js"></script>
+<link rel="stylesheet" href="../icons/css/font-awesome.min.css" />
+
+   <!--qController Plugin-->
+<script src="js/jquery.qcontroller.js"></script>
+   <!--qController CSS-->
+<link rel="stylesheet" href="css/qcontroller.css" />
+
+
+<script>
+$(document).ready(function(){
+ 
+$(".myQuantity").qController();  //with default options
+
+});
+
+</script>
+
+</head>
+<body>
+
+<header class="intro">
+      <h1> Quantity Controller jQuery Plugin qController</h1>
+      <p>
+        qController let's users to input number or quantity of something by buttons or slider.
+         <br />
+         <br />
+<b> Written in:</b><i> HTML5, CSS, JS</i><br>
+          <b> Frameworks: </b> <i>  jQuery 3.3.1  </i>
+      </p>
+<div class="action">
+<a class="btn github" href="#3"> Fork on GiHub </a>
+<a class="btn down" href="#3">Download </a>
+</div>
+</header>
+
+
+<main>
+<article>
+
+
+<h2> qController Example </h2>
+
+<!--qController Example-->
+
+<div class="myQuantity"></div>
+
+<h2> Main Features </h2>
+   <ul>
+   <li>Fully Configurable, Adjustable and Customizable.</li>
+   <li>Two ways for user input  (plus minus button and range slider for quickly input). (Slider is Optional)</li> 
+   <li>Provide way to handle Minimum and Maximum Quantity.  </li>
+   <li> Automatically Creates UI Elements, However Provide Classes for Fully Customization with CSS. </li>
+   <li> Provide easy way to handle user quantity inputs. </li> 
+</ul>
+
+<h2> Why qController </h2>
+<p>
+The qController let's developers to handle user's small inputs (quantities) and perform various kinds of things according to the user input. You can easily implement this lightweight Plugin in your projects. The qController also can be used in functions, conditions, loops, arrays, dynamic &amp; static contents of the javascript programs. 
+</p>
+
+<p> 
+Sometimes, user needs to input a little bit number while performing some kind of task on a website/app. (i.e selecting quantity of item in shopping website, quantity for level of something, quantity of font size, zooming level, increasing or decreasing number, in short to do something after selecting specific quantity). <br />
+This lightweight plugin will helps you to handle such kinds of inputs more easily.
+</p>
+
+
+<h2> What's qController Offer </h2>
+<p> 
+Basically, this plugin control quantity of something. However, it can be used for various purposes according to its available options. There are five total options, these are:
+    
+</p>
+<pre class="prettyprint lang-js">
+  qStart: 50, //quantity where from start to increase or decrease 
+  qMax: 100, //quantity maximum limit to increase
+  qMin: 1, // quantity to minimum limit to decrease
+  qSlider: true, //also show input range slider for increasing or decreasing along with plus and minus buttons
+  qStatus: "Quantity: ", //text that will show along with the quantity status
+</pre>
+  
+<h2> How to Implement </h2>
+<p> First, create a container (an empty div element) in HTML where you want to adjust this controller. After this, initialize it with that container's id or class name in DOM ready function. </p>
+<pre class="prettyprint lang-js">
+$(document).ready(function(){
+$(".classname").qController({
+     //options goes here 
+   });
+ });
+</pre>
+
+
+
+<p>
+<b>Note:</b> Use the above mentioned options to get the desired input from the user.
+
+
+</p>
+
+<h2> Working with User's Inputs</h2>
+  
+<p>
+You can do something when its value reached to the specific number, maximum or minimum with the following condition.
+</p>
+
+<pre class="prettyprint lang-js">
+if ( Quantity == setting.qMax){
+     // block of code
+}
+</pre>
+   
+<p><b> Note:</b> 
+Use <code> setting.qMin </code> for minimum value. <br />
+You can use your desired condition. <br />
+Add the conditions, loops and arrays in structure of this plugin. 
+</p>
+
+
+<p> 
+In plugin code structure, <code>var Quantity </code> stores all the values. It has global scope in plugin. You can use this variable to handle user inputs.   <br />
+To store it's specific value in another array, use the push method. 
+
+</p>
+
+
+
+<!--DEMO ONLY FILES-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="docs/demo-only.css" />
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script> 
+
+</article>
+</main>
+
+<footer class="credit">
+Coded with <span title="heart"></span> by Asif Mughal &copy; 2018 - <a href="https://www.codehim.com" rel="dofollow" title="Awesome Web Projects and Tutorials" target="_blank"> Codehim.com </a>
+      </footer>
+</body>
+</html>
