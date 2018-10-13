@@ -1,7 +1,7 @@
 /*  Plugin: qController (Controls Quantity)
  *   Frameworks: jQuery 3.3.1
  *   Author: Asif Mughal
- *   GitHub: https://github.com/CodeHimBlog
+ *   GitHub: https://github.com/CodeHimBlog/jquery-quantity-controller
  *   URL: https://www.codehim.com
  *   License: MIT License
  *   Copyright (c) 2018 - Asif Mughal
