@@ -4,7 +4,7 @@ For more Awesome Web projects and plugins keep visiting us:
 
 Codehim: https://www.codehim.com
 
-GitHub: https://github.com/CodeHimBlog
+GitHub: https://github.com/CodeHimBlog/jquery-quantity-controller
 
 For suggestions, help or feedback:
 https://www.codehim.com/p/contact.html
